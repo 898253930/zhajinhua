@@ -1,0 +1,13 @@
+**
+!Dockerfile
+!package.json
+!package-lock.json
+!server.mjs
+!lib/
+!lib/**
+!public/
+!public/**
+!docker/
+!docker/setup-admin.mjs
+!docker/empty/
+!docker/empty/.gitkeep

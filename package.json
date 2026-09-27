@@ -1,0 +1,23 @@
+{
+  "name": "zhajinhua-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "devDependencies": {
+    "@babel/generator": "^8.0.6",
+    "@babel/parser": "^8.0.6",
+    "@babel/traverse": "^8.0.6",
+    "@playwright/test": "^1.63.0",
+    "prettier": "^3.9.9"
+  },
+  "dependencies": {
+    "pg": "^8.23.0"
+  }
+}
